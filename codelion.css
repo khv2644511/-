@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: Montserrat;
+}
+
+body,h1,h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #282828;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.mainbox {
+    border: 5px solid #ebebeb;
+    width: 610px;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+.name-text{
+    font-size: 16px;
+    font-weight: bold;
+    color: #7c7c7c;
+}
+
+.about-me-text {
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.float-wrap {
+    overflow: hidden;
+}
+
+.title-text {
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: left;
+
+
+}
+
+.year-text {
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+.desc-text {
+    font-size: 9px;
+
+}
+
+.desc-sub-text {
+    font-size: 9px;
+    padding-left: 16px;
+    color: #282828;
+}
+
+footer {
+    text-align: center;
+    background-color: #3C3B3B;
+    color: #E8E7E7;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.title-box{
+    text-align: right;
+}
+
+.sns-img {
+    width: 12px;
+    height: 12px;
+}
+
+.sns-wrap {
+    text-align: right;
+}
